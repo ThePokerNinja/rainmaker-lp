@@ -1,0 +1,180 @@
+{
+  "version": 2,
+  "formBoostToast": "We matched your exploration to interest lanes\u2014you can change these.",
+  "constellationFinish": {
+    "unlockLabel": "Unlock Issue 01",
+    "unlockHint": "Your magazine edition is ready"
+  },
+  "constellationReveal": {
+    "label": "Unlocked",
+    "title": "SCS Platform Magazine",
+    "body": "You explored all six signals. Here is Issue 01 — competitive temperature, market opportunity sketch, Vibe Code Craft, and your personalized session read.",
+    "ctaDownload": "Download Issue 01 (PDF)",
+    "ctaForm": "Continue to early access",
+    "laneDisclosure": "Interest lanes below are pre-matched from your exploration",
+    "footnote": "Private session artifact · planning research · not investment advice",
+    "downloadFilename": "scs-platform-magazine-issue-01.pdf",
+    "factsUrl": "../../assets/magazine-issue-01-facts.json"
+  },
+  "laneLabels": {
+    "voice": "Voice",
+    "trading": "Trading",
+    "scheduling": "Scheduling",
+    "design": "Design",
+    "sales": "Sales",
+    "content": "Content",
+    "automation": "Automation",
+    "growth": "Growth"
+  },
+  "cards": {
+    "bar": {
+      "num": "01",
+      "title": "Value",
+      "subtitle": "Why voice should run all week\u2014not just demo week",
+      "heroMetric": "All week",
+      "heroLabel": "Built so you can keep it on after the pilot ends",
+      "benchmarkTitle": "How it compares in practice",
+      "benchmarkRows": [
+        { "tier": "Simple calls", "value": "Lightest load", "note": "High volume, straight answers" },
+        { "tier": "Everyday use", "value": "Balanced", "note": "Typical assistant workload for a small business" },
+        { "tier": "Deep workflows", "value": "Full depth", "note": "Tools connected, richer context" },
+        { "tier": "Staffed line (ref.)", "value": "Baseline", "note": "Industry benchmark for human phone support" }
+      ],
+      "validationTitle": "Why you should care",
+      "validationRows": [
+        { "label": "The gap", "value": "Roughly 40\u00d7 less overhead than sending every call to a staffed line\u2014even at full depth" },
+        { "label": "Your week", "value": "Catch missed calls and no-shows without adding a front desk for peak hours" },
+        { "label": "Honest limit", "value": "Planning estimates from private tests; your volume and workflows will differ" }
+      ],
+      "insight": "Most voice pilots fail when the novelty fades and the run rate does not fit real life. We optimized for something you can leave on through Monday morning\u2014not a booth demo you turn off Sunday night.",
+      "footnotes": ["Private planning model \u00b7 Jun 2026", "Comparative estimates, not a price quote"],
+      "vizType": "cost-stack"
+    },
+    "aura": {
+      "num": "02",
+      "title": "Aura",
+      "subtitle": "Response time \u00b7 does it feel human?",
+      "heroMetric": "\u2264800ms",
+      "heroLabel": "Target median response in conversation tests",
+      "benchmarkTitle": "What \u201cfast enough\u201d means",
+      "benchmarkRows": [
+        { "tier": "Acceptable", "value": "Under 1 second median", "note": "Most callers stay engaged" },
+        { "tier": "Target", "value": "Under 800ms median", "note": "Feels like natural turn-taking" },
+        { "tier": "Stretch", "value": "Under 600ms median", "note": "Best-in-class aspiration" },
+        { "tier": "Interrupt", "value": "Under 250ms", "note": "You can cut in mid-sentence" }
+      ],
+      "validationTitle": "Evidence so far",
+      "validationRows": [
+        { "label": "Bench runs", "value": "Instrumented conversation tests across hundreds of turns" },
+        { "label": "Current focus", "value": "Closing the gap on the slowest turns\u2014where bots usually break trust" },
+        { "label": "Honest limit", "value": "Lab and pilot metrics; not a public uptime SLA yet" }
+      ],
+      "insight": "Speed is not vanity\u2014it is whether someone finishes the sentence or hangs up. We publish targets because we test against them, not because we have finished tuning every edge case.",
+      "footnotes": ["Controlled conversation benchmarks", "Targets, not guarantees"],
+      "vizType": "latency-waterfall"
+    },
+    "radial": {
+      "num": "03",
+      "title": "Radial",
+      "subtitle": "What you can ask for \u00b7 one surface",
+      "heroMetric": "8",
+      "heroLabel": "Early-access capability areas",
+      "benchmarkTitle": "Jobs we hear about most",
+      "benchmarkRows": [
+        { "tier": "Voice", "value": "Talk instead of tap", "note": "Commands and context by speech" },
+        { "tier": "Trading", "value": "Morning context", "note": "Scans and fair-value readouts" },
+        { "tier": "Scheduling", "value": "Calendar ops", "note": "Bookings and reminders" },
+        { "tier": "Design", "value": "On-brand creative", "note": "Campaign-ready assets" },
+        { "tier": "Sales", "value": "Pipeline intake", "note": "Leads without tab sprawl" },
+        { "tier": "Content", "value": "Story packages", "note": "Repurpose once, ship many" },
+        { "tier": "Automation", "value": "Repeatable workflows", "note": "Less copy-paste ops" },
+        { "tier": "Growth", "value": "Consent-safe capture", "note": "Know who engaged and why" }
+      ],
+      "validationTitle": "Why we show this map",
+      "validationRows": [
+        { "label": "Your clicks", "value": "Which pillars you open tells us what to prioritize in cohort access" },
+        { "label": "One door in", "value": "You should not need a different product for each job" },
+        { "label": "Honest limit", "value": "Areas shown are roadmap lanes\u2014not every SKU on day one" }
+      ],
+      "insight": "Operators do not buy architecture diagrams. They buy fewer tabs and one reliable place to ask. This map is how we listen to what you actually want early access to.",
+      "footnotes": ["Cohort interest signals", "Roadmap lanes, not SKUs"],
+      "vizType": "pillar-orbit"
+    },
+    "wave": {
+      "num": "04",
+      "title": "Wave",
+      "subtitle": "Conversation flow \u00b7 continuous, not choppy",
+      "heroMetric": "Streaming",
+      "heroLabel": "Speak, listen, respond\u2014without the robot pause",
+      "benchmarkTitle": "What we optimize for in practice",
+      "benchmarkRows": [
+        { "tier": "Listen", "value": "Partial understanding", "note": "We do not wait for you to finish typing energy" },
+        { "tier": "Think", "value": "Overlapped processing", "note": "Work starts while you are still talking" },
+        { "tier": "Reply", "value": "First words quickly", "note": "Audio begins before the full answer is done" },
+        { "tier": "Recover", "value": "Barge-in supported", "note": "Change your mind mid-sentence" }
+      ],
+      "validationTitle": "Evidence so far",
+      "validationRows": [
+        { "label": "Pilot feedback", "value": "Choppy turn-taking is the #1 reason people abandon voice assistants" },
+        { "label": "Test focus", "value": "End-to-end runs in private pilots\u2014not demo scripts only" },
+        { "label": "Honest limit", "value": "Performance varies by network, device, and call length" }
+      ],
+      "insight": "The magic is not a single model name\u2014it is that the conversation keeps moving. We built for streaming because people do not talk in batch requests.",
+      "footnotes": ["Private pilot sessions", "Streaming conversation tests"],
+      "vizType": "cascade-wave"
+    },
+    "grid": {
+      "num": "05",
+      "title": "Grid",
+      "subtitle": "Reliability \u00b7 bad day, still works",
+      "heroMetric": "Always-on",
+      "heroLabel": "Voice quality protected first",
+      "benchmarkTitle": "What yields vs what never does",
+      "benchmarkRows": [
+        { "tier": "Never cut", "value": "Audio continuity", "note": "The call does not drop mid-sentence" },
+        { "tier": "Never cut", "value": "Turn-taking", "note": "You can interrupt naturally" },
+        { "tier": "May adapt", "value": "Response depth", "note": "Shorter answers under stress" },
+        { "tier": "May adapt", "value": "Visual extras", "note": "Rich UI yields before voice does" }
+      ],
+      "validationTitle": "Evidence so far",
+      "validationRows": [
+        { "label": "Stress tests", "value": "Simulated load and weak-network runs in QA" },
+        { "label": "Design rule", "value": "If something has to give, it is not the conversation" },
+        { "label": "Honest limit", "value": "Extreme conditions may still require a retry" }
+      ],
+      "insight": "Real operators have bad Wi-Fi, long days, and peak-hour spikes. We degrade the extras before we degrade the call\u2014because trust is the product.",
+      "footnotes": ["Load and network stress QA", "Adaptive quality tiers"],
+      "vizType": "tier-heat"
+    },
+    "sam": {
+      "num": "06",
+      "title": "S.A.M.",
+      "subtitle": "Samuel \u00b7 one agent, your interface",
+      "heroMetric": "1",
+      "heroLabel": "Single customer-facing agent",
+      "benchmarkTitle": "What you get vs what stays hidden",
+      "benchmarkRows": [
+        { "tier": "You meet", "value": "Samuel (Sam)", "note": "One voice, one relationship" },
+        { "tier": "You ask for", "value": "Scheduling, research, sales, creative", "note": "Through the same surface" },
+        { "tier": "You control", "value": "Consent and approvals", "note": "Sensitive actions need your OK" },
+        { "tier": "We handle", "value": "The complexity", "note": "So you do not manage a tool stack" }
+      ],
+      "validationTitle": "Evidence so far",
+      "validationRows": [
+        { "label": "Private pilots", "value": "Founder and operator workflows dogfooded first" },
+        { "label": "Early access", "value": "Read-heavy workflows before anything that moves money alone" },
+        { "label": "Honest limit", "value": "Scope expands as trust and testing catch up" }
+      ],
+      "insight": "You should not need a PhD in our stack to get value. Sam is the product face; the machinery stays backstage until you care to ask.",
+      "footnotes": ["Samuel = customer-facing agent", "Capabilities expand by cohort"],
+      "vizType": "agent-portal"
+    }
+  },
+  "laneMap": {
+    "bar": ["growth", "automation"],
+    "aura": ["voice"],
+    "wave": ["voice", "content"],
+    "grid": ["automation", "trading"],
+    "sam": ["voice", "sales"]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "issue": 1,
+  "title": "SCS Platform Magazine",
+  "subtitle": "AI Design in Enterprise",
+  "published": "June 2026",
+  "disclaimer": "Planning research · Jun 2026 · Not investment advice · Ranges are estimates",
+  "competitors": [
+    {
+      "category": "Design tools + AI",
+      "players": "Figma · Adobe Firefly · Canva",
+      "heat": "hot",
+      "signal": "Fast feature shipping; familiar to creative teams",
+      "gap": "Tool-centric — not orchestrated across ops lanes"
+    },
+    {
+      "category": "Creative automation",
+      "players": "Runway · GenStudio · team gen tools",
+      "heat": "warm",
+      "signal": "Enterprise pilots; governance still maturing",
+      "gap": "Generation without brand system + approval gates"
+    },
+    {
+      "category": "Design ops / DAM",
+      "players": "In-house DS · Bynder · Frontify",
+      "heat": "warm",
+      "signal": "Systems at scale; AI bolted on",
+      "gap": "Slow iteration; no unified agent surface"
+    },
+    {
+      "category": "Agency AI services",
+      "players": "Holding-company labs · boutiques",
+      "heat": "warm",
+      "signal": "Custom projects; high cost",
+      "gap": "Not productized; weak data loop"
+    }
+  ],
+  "temperatureHeadline": "Crowded at the tool layer. Open at the orchestrated platform layer.",
+  "marketOpportunity": {
+    "headline": "AI-led design in enterprise creative ops",
+    "ranges": [
+      { "label": "Low estimate", "value": "~$4B", "note": "8% AI share of creative spend context" },
+      { "label": "Base estimate", "value": "~$8B", "note": "15% adoption curve by 2028" },
+      { "label": "High estimate", "value": "~$14B", "note": "22% aggressive enterprise uptake" }
+    ],
+    "wedge": "Design is one lane — Samuel coordinates creative with voice, scheduling, and growth capture."
+  },
+  "craft": {
+    "principles": [
+      {
+        "title": "Hierarchy before chrome",
+        "body": "Emphasize with space and weight — not boxes-in-boxes. One clear emphasis path per view."
+      },
+      {
+        "title": "Package, not pixels",
+        "body": "Ship masters + derivatives with provenance. Never hand-redraw per channel."
+      },
+      {
+        "title": "Scroll by design",
+        "body": "Panels overflow gracefully; discover scroll through layout, not visible bars."
+      },
+      {
+        "title": "Honest limits on the page",
+        "body": "Publish targets and planning estimates — not fake SLAs. Trust is the product."
+      }
+    ],
+    "proTips": [
+      {
+        "title": "Vibe once, spec forever",
+        "body": "Capture the feel in a board + manifest; every export regenerates from masters."
+      },
+      {
+        "title": "Gold is accent, not wallpaper",
+        "body": "Indigo field + champagne highlight — reserve gold for payoff beats and CTAs."
+      },
+      {
+        "title": "Agent surface, not tool stack",
+        "body": "One door in (Sam). Sub-agents stay backstage until the operator cares to ask."
+      },
+      {
+        "title": "Review before render",
+        "body": "Thumbs and changelog on prompts beat regenerating the whole filmstrip."
+      }
+    ]
+  }
+}

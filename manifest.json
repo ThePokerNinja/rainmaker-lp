@@ -1,0 +1,36 @@
+{
+  "id": "lp-innovation-update",
+  "type": "landing",
+  "version": "v1-ready",
+  "status": "ready-for-signoff",
+  "campaign": "pov-01",
+  "title": "Innovation Update � Santa Cruz Studios platform",
+  "producer": "Michael Stewman",
+  "files": {
+    "canvas": "index.html"
+  },
+  "api": {
+    "email_capture": "POST /growth/email",
+    "prod": "https://rainmaker-api-waqs.onrender.com",
+    "local": "http://127.0.0.1:8765"
+  },
+  "utm_default": {
+    "utm_source": "linkedin",
+    "utm_medium": "organic_social",
+    "utm_campaign": "pov-01",
+    "utm_content": "4x5"
+  },
+  "cta": {
+    "typewriter": "> Join Early Access",
+    "anchor": "#early-access",
+    "source_prefix": "beta-pov-01"
+  },
+  "export": {
+    "ts": "2026-06-29T05:38:47.075Z",
+    "bundle": "framer-bundle",
+    "pages_path": "pov-01/",
+    "pages_url": "https://thepokerninja.github.io/rainmaker-lp/pov-01/",
+    "custom_domain": "earlyaccess.michaelstewman.com",
+    "prod_url": "https://earlyaccess.michaelstewman.com/"
+  }
+}
