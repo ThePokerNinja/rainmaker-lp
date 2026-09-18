@@ -1,0 +1,47 @@
+{
+  "schema_version": 3,
+  "issue": 1,
+  "title": "SCS Platform Magazine",
+  "subtitle": "Your platform read",
+  "published": "June 2026",
+  "disclaimer": "Private session artifact � Jun 2026 � Planning estimates � Not investment advice",
+  "hook": "You stress-tested six signals�not a slide deck. This is what they add up to.",
+  "building": "Santa Cruz Studios is building Samuel (Sam): one agent you talk to, not a tab for every job. Early access opens lane by lane as we dogfood each workflow.",
+  "plates": {
+    "cover": "/artifacts/pov-brand-01/board/4x5/f1.png",
+    "editorial": "/artifacts/pov-brand-01/board/4x5/f2.png",
+    "payoff": "/artifacts/pov-brand-01/board/4x5/f4.png"
+  },
+  "headlineStackByLane": {
+    "voice": ["leaving it", "on past", "demo week"],
+    "design": ["ship as", "a system", "not pixels"],
+    "automation": ["one agent", "your ops", "monday am"],
+    "growth": ["capture", "intent", "safely"],
+    "trading": ["honest read", "before", "execution"],
+    "scheduling": ["one door", "for calendar", "and callers"],
+    "sales": ["pipeline", "without", "another tab"],
+    "content": ["one package", "every", "channel"],
+    "default": ["your", "platform", "read"]
+  },
+  "laneCta": {
+    "voice": "Voice is your lead lane�we tune latency and streaming before we stack more jobs on the same surface.",
+    "design": "Design is your lead lane�on-brand packages and review-before-render, not one-off pixels per channel.",
+    "automation": "Automation is your lead lane�repeatable workflows with honest limits when load spikes.",
+    "growth": "Growth is your lead lane�consent-safe capture so you know who engaged and why.",
+    "trading": "Trading is your lead lane�read-heavy morning context before anything that moves money alone.",
+    "scheduling": "Scheduling is your lead lane�calendar ops through the same door as everything else.",
+    "sales": "Sales is your lead lane�pipeline intake without another CRM tab.",
+    "content": "Content is your lead lane�story packages you repurpose once and ship many."
+  },
+  "thesisByPrimaryLane": {
+    "voice": "You prioritized voice�so the real question is not whether AI can talk. It is whether you can leave it on past demo week without eating your margin or your trust.",
+    "design": "You prioritized design�so the real question is not another image button. It is whether creative ships as a system your team can rerun, not redraw.",
+    "automation": "You prioritized automation�so the real question is not more scripts. It is whether one agent can run repeatable ops when Wi-Fi, load, and Monday morning all hit at once.",
+    "growth": "You prioritized growth�so the real question is not more forms. It is whether you can capture intent without turning the product into a surveillance stack.",
+    "trading": "You prioritized trading context�so the real question is not another chart. It is whether one surface can give you an honest read before anything executes.",
+    "scheduling": "You prioritized scheduling�so the real question is not another calendar app. It is whether callers and operators share one reliable door.",
+    "sales": "You prioritized sales intake�so the real question is not another CRM login. It is whether leads land where you already work.",
+    "content": "You prioritized content�so the real question is not more drafts. It is whether one package can feed every channel without hand-redrawing.",
+    "default": "You opened every signal�so the real question is simple: can one agent run your week without becoming another tool stack to manage?"
+  }
+}
